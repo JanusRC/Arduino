@@ -13,7 +13,7 @@ These demos are for evaluations purposes only. Janus provides them as-is without
 ### Janus Plugin Library
 Arduino Shield library for use with the Janus Plugin Modem or Telit Modem.
 
-* `Baudrate_Change: Adjust the modem's baud rate.
+* `Baudrate_Change`: Adjust the modem's baud rate.
 * `Modem_Information`: Prints out the modem's information, including SIM serial and Network.
 * `Modem_Terminal`: Cross connect the UART for quick evaluation and direct AT commands.
 * `Modem_USBControl`: Turn the external USB on or off
@@ -22,7 +22,8 @@ Arduino Shield library for use with the Janus Plugin Modem or Telit Modem.
 * `Socket_Listen`: M2M Demo - Creates a listening host, once a client connects a serial bridge is open.
 
 The Listener demo will create a completely open listener if you have an externally routable IP. Please be careful to shut this down
-once testing is complete as you may find someone will connect to it and rack up your data usage. 
+once testing is complete as you may find someone will connect to it and rack up your data usage. This is by default, but can be changed
+in the demo by the user if needed with setupFirewall.
 
 
 

@@ -10,7 +10,7 @@ This library should aid in getting a proof of concept with the Janus Plug in Mod
 quickly, allowing application development to focus on the bigger picture.
 
 ### Hardware
-Arduino Shield and accessories - Designed in Eagle EAGLE 7.3.0
+Arduino Shield and accessories - Designed in EAGLE 7.3.0
 
 * `Plugin Shield v2.0`: Arduino Shield - Tested for the Uno/Leonardo
 * `Eagle Library`: Janus Eagle Library
