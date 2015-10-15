@@ -128,7 +128,7 @@ class Janus_Plugin : public Stream {
 	uint8_t isModemON(int PWRPin, int inThresh);
 	
 	// Modem Basic Control
-	uint8_t setBaudrate(uint16_t baud);
+	uint8_t setBaudrate(uint32_t baud);
 	uint8_t getSerialNumber(char *outString);
 	uint8_t getMake(char *outString);
 	uint8_t getModel(char *outString);

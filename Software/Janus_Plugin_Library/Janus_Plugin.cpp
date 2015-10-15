@@ -117,13 +117,13 @@ uint8_t Janus_Plugin::isModemON(int PWRPin, int inThresh)
 /*********************************
 Modem higher level control functions
 *********************************/
-uint8_t Janus_Plugin::setBaudrate(uint16_t baud)
+uint8_t Janus_Plugin::setBaudrate(uint32_t baud)
 {
   uint8_t Fault = FAULT_OK;  //Initialize Fault
   char sndstring[15];    	 //Temporary buffer AT+IPR=115200\r\n
 
   //Format and store the full string to the temp buffer
-  sprintf(sndstring,"AT+IPR=%d",baud); 
+  sprintf(sndstring,"AT+IPR=%lu",baud); 
     
   //Send the Query
   Fault = sendAT(sndstring, ATC_STD_TIMEOUT);

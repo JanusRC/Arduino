@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -3526,8 +3526,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.1" y1="-0.75" x2="1.1" y2="0.75" width="0.1524" layer="21"/>
 <wire x1="-1.1" y1="-0.75" x2="-1.1" y2="0.75" width="0.1524" layer="21"/>
 <wire x1="-0.8" y1="1" x2="0.8" y2="1" width="0.1524" layer="21"/>
-<smd name="1" x="-0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
-<smd name="2" x="0.4119" y="0" dx="0.635" dy="1.27" layer="1"/>
+<smd name="1" x="-0.3992" y="0" dx="0.635" dy="1.27" layer="1"/>
+<smd name="2" x="0.3992" y="0" dx="0.635" dy="1.27" layer="1"/>
 <text x="-0.9498" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.9498" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.2192" y1="-1.143" x2="1.2192" y2="1.143" layer="31"/>
@@ -4504,10 +4504,10 @@ wave soldering</description>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="JP4" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NC"/>
-<part name="JP6" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NO"/>
+<part name="JP6" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NC"/>
 <part name="JP7" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NC"/>
 <part name="P1" library="Connector" deviceset="HEADER-2X3P" device="-2.54"/>
-<part name="JP3" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NC"/>
+<part name="JP3" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NO"/>
 <part name="JP8" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NC"/>
 <part name="P2" library="Janus-IC" deviceset="RF_SMA" device=""/>
 <part name="JP2" library="SparkFun-Retired" deviceset="JUMPER-2" device="SMD-NO"/>
