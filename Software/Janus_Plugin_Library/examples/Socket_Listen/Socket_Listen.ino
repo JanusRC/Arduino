@@ -47,13 +47,13 @@ User defines for the shield/Arduino
 #define LEDPIN 13
 
 //UART
-#define MDM_SW_TXD 4
-#define MDM_SW_RXD 3
+#define MDM_SW_TXD 7
+#define MDM_SW_RXD 8
 
 //Modem Hardware Control
-#define MDM_ENABLE 6      //Regulator enable, active drive thru FET switch
-#define MDM_ON_OFF 7      //Modem ON/OFF toggle pin, active drive thru FET switch
-#define MDM_VBUS_EN 5     //Set as OC, drop low to enable VBUS via FET load switch
+#define MDM_ENABLE 5      //Regulator enable, active drive thru FET switch
+#define MDM_ON_OFF 6      //Modem ON/OFF toggle pin, active drive thru FET switch
+#define MDM_VBUS_EN 4     //Set as OC, drop low to enable VBUS via FET load switch
 #define MDM_PWRMON A0     //Power monitor feedback signal. ADC Channel 0, Digital pin 14
 
 //Misc.
